@@ -67,6 +67,19 @@ let b=a++;
  console.log(a)
  console.log(b)
 
+const userLoggedIn=true
+const debitCard=true
+const loggedInFromGoggle=false
+const loggedInFromEmail=true
+
+if(userLoggedIn && debitCard && 2==2)
+{
+    console.log("Allow to buy course")
+}
 
 
+if(loggedInFromEmail || loggedInFromGoggle || 2==4)
+{
+console.log("User logged in");
 
+}
