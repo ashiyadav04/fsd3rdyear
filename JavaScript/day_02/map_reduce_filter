@@ -1,0 +1,7 @@
+//functions applied on array
+//hingher order function->function used as a parametrer,function returned function
+
+//1.map()->return same size array
+//2.reduce()->return single value 
+//3.filter()->return arraysize less than equal to input array
+//4.find()->returns object and works on conditions 
