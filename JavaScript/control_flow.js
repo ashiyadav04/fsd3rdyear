@@ -81,3 +81,9 @@ else
 
 
 
+//if else using shorthand notation 
+const b=100
+if(b>100) console.log("Greter")
+else if (b==100) console.log("equal")
+else console.log("less")
+
