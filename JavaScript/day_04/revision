@@ -1,0 +1,15 @@
+// 1.CDN Links
+// a. without npm
+// ReactecresteElement(,,)
+// //it take 3 parameters
+//b. with jsx and without npm
+//.js not used in it
+//
+
+//React element -- a piece of code return in jsx
+
+//React Component 2 types --- class component (no hooks in it ) and function components-- a js function which return jsx (used for reuseability)
+
+//inline css used by style={to tell that it is gonnan be js {object}}
+//jsx uses CAMELE CASE
+//IN REACT jsx is used which look alike html
