@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,7 +6,7 @@
 }
 
 body {
-    background: #f4f6f9;
+    background: #f898f0;
     min-height: 100vh;
     padding: 30px;
 }
@@ -14,7 +14,7 @@ body {
 .container {
     max-width: 1100px;
     margin: auto;
-    background: white;
+    background: rgb(245, 182, 239);
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
@@ -25,9 +25,6 @@ h1 {
     margin-bottom: 30px;
     color: #222;
 }
-
-
-/* Form */
 
 .form-container {
     display: grid;
@@ -56,7 +53,7 @@ h1 {
 }
 
 .input-group input:focus {
-    border-color: #007bff;
+    border-color: #d018ae;
 }
 
 
@@ -67,7 +64,7 @@ h1 {
     padding: 13px;
     border: none;
     border-radius: 6px;
-    background: #007bff;
+    background: #ea0cbd;
     color: white;
     font-size: 16px;
     font-weight: bold;
@@ -75,7 +72,7 @@ h1 {
 }
 
 #addBtn:hover {
-    background: #0056b3;
+    background: #f113ae;
 }
 
 
@@ -119,7 +116,7 @@ h1 {
 .stat-card p {
     font-size: 28px;
     font-weight: bold;
-    color: #007bff;
+    color: #e9139a;
 }
 
 
@@ -135,7 +132,7 @@ table {
 }
 
 thead {
-    background: #007bff;
+    background: #ee0eb6;
     color: white;
 }
 
@@ -188,6 +185,7 @@ tbody tr:hover {
     background: #f8f9fa;
     border-radius: 8px;
     text-align: center;
+    flex:column;
 }
 
 .grade-info h3 {

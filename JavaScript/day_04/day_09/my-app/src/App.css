@@ -1,0 +1,51 @@
+
+.counter-box {
+  background-color: white;
+  padding: 40px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.counter-box h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.counter-box h2 {
+  font-size: 50px;
+  margin: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.plus {
+  background-color: rgb(200, 207, 200);
+  color: white;
+}
+
+.minus {
+  background-color: rgba(255, 0, 0, 0.445);
+  color: white;
+}
+
+.reset {
+  background-color: rgb(107, 107, 110);
+  color: white;
+}
+
+button:hover {
+  opacity: 0.8;
+}
